@@ -4,4 +4,9 @@
 @import "variables";
 @import "defaults";
 
+@import "./components/image.scss";
+@import "./components/list.scss";
+
+@import "./layout/header";
+
 @import "media";

@@ -1,8 +1,3 @@
-@include font-face("PTRootUI-Bold", "../fonts/PTRootUI-Bold", 700, normal);
-@include font-face("PTRootUI-Medium", "../fonts/PTRootUI-Medium", 500, normal);
-@include font-face(
-  "PTRootUI-Regular",
-  "../fonts/PTRootUI-Regular",
-  400,
-  normal
-);
+@include font-face("PTRootUI", "../fonts/PTRootUI-Bold", 700, normal);
+@include font-face("PTRootUI", "../fonts/PTRootUI-Medium", 500, normal);
+@include font-face("PTRootUI", "../fonts/PTRootUI-Regular", 400, normal);
