@@ -22,8 +22,8 @@
 
     &-link {
       display: inline-block;
-      font-weight: 500;
       font-size: 16px;
+      font-weight: 500;
       line-height: 19px;
       color: var(--dark-color);
 
@@ -31,13 +31,13 @@
         display: block;
         content: "";
         border-bottom: 1px solid var(--dark-color);
-        transform: scaleX(0);
         transition: all 0.3s ease-in-out;
+        transform: scaleX(0);
       }
 
       &:hover::after {
-        transform: scaleX(1);
         transition: all 0.3s ease-in-out;
+        transform: scaleX(1);
       }
 
       &.highlighted {
@@ -65,23 +65,23 @@
     }
 
     &-button {
-      font-weight: 500;
+      padding: 14px 33px;
       font-size: 16px;
+      font-weight: 500;
       line-height: 19px;
       color: var(--light-color);
-      padding: 14px 33px;
       background-color: #7984c0;
       border-radius: 12px;
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        transition: all 0.3s ease-in-out;
         background-color: #5b6394;
+        transition: all 0.3s ease-in-out;
       }
 
       &:active {
-        transition: all 0.3s ease-in-out;
         background-color: #4c557c;
+        transition: all 0.3s ease-in-out;
       }
     }
   }

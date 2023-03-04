@@ -1,32 +1,32 @@
 .search-bar {
-  background-color: var(--dark-color);
-  padding: 20px 0;
   width: 100vw;
+  padding: 20px 0;
+  background-color: var(--dark-color);
 
   & .container {
-    height: 20px;
     display: flex;
     align-items: center;
+    height: 20px;
   }
 
   &__img {
-    width: 18px;
-    z-index: 1;
     position: absolute;
+    z-index: 1;
+    width: 18px;
   }
 
   &__input {
-    background-color: var(--dark-color);
-    color: var(--light-color);
     width: 100%;
     padding-left: 30px;
     font-size: 20px;
     line-height: 24px;
+    color: var(--light-color);
+    background-color: var(--dark-color);
   }
 
   & .input__wrapper {
-    width: 100%;
     display: flex;
     align-items: center;
+    width: 100%;
   }
 }
