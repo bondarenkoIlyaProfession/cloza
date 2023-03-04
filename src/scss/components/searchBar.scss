@@ -1,0 +1,32 @@
+.search-bar {
+  background-color: var(--dark-color);
+  padding: 20px 0;
+  width: 100vw;
+
+  & .container {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    width: 18px;
+    z-index: 1;
+    position: absolute;
+  }
+
+  &__input {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    width: 100%;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  & .input__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}

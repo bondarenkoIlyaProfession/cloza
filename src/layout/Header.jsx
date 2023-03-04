@@ -34,13 +34,13 @@ export const Header = () => {
         <div className="header__actions">
           <ListGroup className="header__actions-list">
             {actions &&
-              actions.map(({ id, src, name, url, className }) => (
+              actions.map(({ id, src, name, url, alt, className }) => (
                 <ListGroupItem key={id} className="header__actions-item">
                   <Link
                     to={url}
                     className={`header__actions-link ${className}`}
                   >
-                    {src && <Image src={src} />}
+                    {src && <Image src={src} alt={alt} loading="lazy" />}
                     {name && name}
                   </Link>
                 </ListGroupItem>

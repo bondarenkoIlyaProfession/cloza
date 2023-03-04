@@ -1,5 +1,5 @@
-import favouriteBorder from "../assets/images/icons/favoriteBorder.svg";
-import user from "../assets/images/icons/user.svg";
+import favouriteBorderIcon from "../assets/images/icons/favoriteBorder.svg";
+import userIcon from "../assets/images/icons/user.svg";
 
 export const navigation = [
   {
@@ -43,13 +43,15 @@ export const navigation = [
 export const actions = [
   {
     id: 0,
-    src: favouriteBorder,
+    src: favouriteBorderIcon,
+    alt: "Heart icon",
     url: "liked",
     className: "header__actions-icon",
   },
   {
     id: 1,
-    src: user,
+    src: userIcon,
+    alt: "User icon",
     url: "personal-account",
     className: "header__actions-icon",
   },
